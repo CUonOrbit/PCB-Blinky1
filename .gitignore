@@ -1,0 +1,28 @@
+# KiCad auto-generated backups and locks
+*-backups/
+_autosave-*
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+fp-info-cache
+*.lck
+
+# KiCad project local settings (optional - see note below)
+*.kicad_prl
+
+# 3D model cache
+*.3dshapes/*.lock
+
+# Plot/export outputs (regenerate these, don't need to track them)
+*.pos
+*.drl
+*.gbr
+*.gbrjob
+gerbers/
+plot/
+
+# Editor/OS cruft
+.history/
+.DS_Store
+Thumbs.db
+*.tmp

@@ -1,0 +1,15 @@
+# Normalize all text files to LF in the repository
+* text=auto eol=lf
+
+# KiCad files are text-based
+*.kicad_pcb text eol=lf
+*.kicad_sch text eol=lf
+*.kicad_pro text eol=lf
+*.kicad_prl text eol=lf
+*.kicad_sym text eol=lf
+
+# Binary files - don't touch line endings
+*.png binary
+*.jpg binary
+*.step binary
+*.stp binary
